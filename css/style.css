@@ -1,0 +1,447 @@
+/* Global CSS start */
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+  border: 0px;
+  box-sizing: border-box;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+section {
+  text-align: center;
+  padding: 80px 0px;
+}
+
+p {
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 300;
+}
+
+.heading {
+  font-size: 35px;
+  line-height: 35px;
+  font-weight: 600
+}
+
+.sub-heading {
+  font-size: 25px;
+  line-height: 25px;
+  text-transform: uppercase;
+  margin: 20px 0px;
+}
+
+.underline {
+  border-bottom: 5px solid rgba(0, 0, 0, 0.362);
+  width: 10% !important;
+  margin: 20px auto;
+}
+
+.writhing-part {
+  margin-bottom: 50px;
+}
+
+.writhing-part p {
+  width: 50%;
+  margin: auto;
+}
+
+.box {
+  margin: 30px 0px;
+  padding: 0px 50px;
+}
+
+.btn {
+  width: 200px;
+  padding: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+/* Global CSS end */
+
+/* layout start */
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.row {
+  width: 100%;
+  float: left;
+}
+
+[class*="col-"] {
+  float: left;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+/* layout end */
+
+/* header part start */
+
+header {
+  background-color: #87509c;
+  color: #fff;
+}
+
+.logo-part {
+  margin-top: 50px;
+}
+
+.menu-part {
+  text-align: end;
+}
+
+.menu-part li {
+  display: inline-block;
+  margin-top: 50px;
+}
+
+.menu-part li a {
+  font-size: 20px;
+  padding: 7px 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu-part li a:hover {
+  background-color: rgba(0, 0, 0, 0.201);
+  border-radius: 5px;
+}
+
+.hero-part {
+  justify-content: center;
+}
+
+.hero-part h1 {
+  font-size: 45px;
+  line-height: 45px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.hero-part a button {
+  margin: 30px 40%;
+  background-color: #eb7d4b;
+  color: #fff;
+  border-radius: 5px;
+}
+
+/* header part end */
+
+/* Service section start */
+
+#service {
+  width: 100%;
+  float: left;
+  background-color: #17c2a4;
+  color: #fff;
+}
+
+#service .box img {
+  height: 100px;
+}
+
+/* Service section end */
+
+/* team section start */
+
+#team {
+  width: 100%;
+  float: left;
+  background-color: #e7f1f8;
+  color: #3c4761;
+}
+
+/* 
+#team .box img {
+  height: 180px;
+  width: 180px;
+} */
+
+#team .writhing-part .underline {
+  margin: 20px auto;
+}
+
+#team .box .sub-heading {
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+#team .title {
+  font-size: 20px;
+  color: #30bae7;
+  margin-bottom: 25px;
+  font-style: normal;
+  text-align: left;
+}
+
+/* social media area */
+.social_area {
+  width: 100%;
+  float: left;
+  margin-top: 10px;
+}
+
+.social_area ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-align: left;
+}
+
+.social_area ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.social_area ul li a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.social_area ul li a i {
+  width: 35px;
+  height: 30px;
+  background-color: #bdd1df;
+  border-radius: 50%;
+  display: inline-block;
+  text-decoration: none;
+  padding-top: 7px;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+}
+
+.social_area ul li a:hover i.fa-facebook-f {
+  background-color: #4267B2;
+}
+
+.social_area ul li a:hover i.fa-twitter {
+  background-color: #1DA1F2;
+}
+
+.social_area ul li a:hover i.fa-linkedin-in {
+  background-color: #0072b1;
+}
+
+.social_area ul li a:hover i.fa-envelope {
+  background-color: #F25022;
+}
+
+/* team section end */
+
+/* skill section start */
+
+#skill {
+  width: 100%;
+  float: left;
+  background-color: #ffffff;
+  color: #3c4761;
+}
+
+/* skill section end */
+
+/* portfolio section start */
+
+#portfolio {
+  width: 100%;
+  float: left;
+  background-color: #ffdd99;
+  color: #393939;
+}
+
+.box-part a button {
+  background-color: #17C2A4;
+  font-size: 18px;
+  padding: 10px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+/* portfolio section end */
+
+/* about section start */
+#about {
+  width: 100%;
+  float: left;
+  background-color: #d74680;
+  color: #fff;
+}
+
+.about-dis {
+  text-align: justify;
+  font-style: italic;
+  text-align: left;
+}
+
+#about .box h3 {
+  text-align: left;
+  margin-bottom: 0px;
+}
+
+#about .box img {
+  text-align: right;
+}
+
+#about .title {
+  text-align: left;
+  font-style: italic;
+  color: #f4b592;
+}
+
+/* about section end */
+
+/* contact section start */
+
+#contact {
+  width: 100%;
+  float: left;
+  background-color: #3c5499;
+  color: #fff;
+}
+
+.first-part input {
+  width: 30%;
+  height: 45px;
+  padding: 10px 0px;
+  margin: 50px 8px 30px 0px;
+  border-radius: 5px;
+  background-color: #273a71;
+}
+
+#message-box {
+  background-color: #273a71;
+  width: 61%;
+  height: 200px;
+  border-radius: 5px;
+
+}
+
+#submit {
+  background-color: #30bae7;
+  margin-top: 20px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+
+::placeholder::after {
+  content: "*";
+  color: red;
+}
+
+/* .required::after {
+  content: " * ";
+  color: red;
+} */
+
+/* contact section end */
+
+/* footer part start */
+footer {
+  background-color: #344b8e;
+  color: #ffffff;
+}
+
+.mini-menu {
+  text-align: center;
+}
+
+.mini-menu li {
+  display: inline-block;
+  margin-top: 50px;
+}
+
+.mini-menu li a {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: black;
+  background-color: #3939394f;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.mini-menu li a:hover {
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.social_media {
+  text-align: center;
+}
+
+.social_media li {
+  display: inline-block;
+  margin: 40px 0px;
+}
+
+.social_media li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  margin: 0px 30px;
+}
+
+.social_media li a:hover {
+  color: #0ae0f0;
+}
+
+/* footer part end */
